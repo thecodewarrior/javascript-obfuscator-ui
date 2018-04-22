@@ -38,10 +38,14 @@ const TARGET_OPTIONS = [
 
 export const IDENTIFIER_NAMES_GENERATOR_HEXADECIMAL = 'hexadecimal';
 export const IDENTIFIER_NAMES_GENERATOR_MANGLED = 'mangled';
+export const IDENTIFIER_NAMES_GENERATOR_SMURF = 'smurf';
+export const IDENTIFIER_NAMES_GENERATOR_ZALGOSMURF = 'zalgo-smurf';
 
 const IDENTIFIER_NAMES_GENERATOR_OPTIONS = [
     {text: 'hexadecimal', value: IDENTIFIER_NAMES_GENERATOR_HEXADECIMAL},
     {text: 'mangled', value: IDENTIFIER_NAMES_GENERATOR_MANGLED},
+    {text: 'smurf', value: IDENTIFIER_NAMES_GENERATOR_SMURF},
+    {text: 'zalgo smurf', value: IDENTIFIER_NAMES_GENERATOR_ZALGOSMURF},
 ];
 
 const Options = ({dispatch, options}) =>
